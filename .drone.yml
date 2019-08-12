@@ -7,7 +7,7 @@ steps:
   detach: true
   commands:
   - bundle install
-  - ruby sinatra.rb
+  - ruby sinatra.rb -o 0.0.0.0
 
 - name: client
   image: ruby:2.4-alpine3.9
